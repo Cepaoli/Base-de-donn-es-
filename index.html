@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classement des réseaux sociaux en France en 2023</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="styles.css">
+
+    <h1>Classement des réseaux sociaux en France en 2023</h1>
+    <canvas id="socialMediaChart" style="display: block; box-sizing: border-box; height: 330px; width: 660px;"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('socialMediaChart').getContext('2d');
+        var socialMediaChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Youtube', 'Whatsapp', 'Facebook', 'Instagram', 'Snapchat', 'Messenger', 'TikTok', 'LinkedIn', 'Twitter', 'Pinterest'],
+                datasets: [{
+                    label: '%',
+                    data: [78, 57, 49, 36, 35, 33, 32, 30, 21, 18],
+                    backgroundColor: [
+                        'red', 'blue', 'green', 'purple', 'orange', 'yellow', 'pink', 'brown', 'cyan', 'grey'
+                    ]
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!-- Page 2: Les chiffres clés de Instagram en France en 2023 -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les chiffres clés de Instagram en France en 2023</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les chiffres clés de Instagram en France en 2023</h1>
+    <canvas id="instagramChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('instagramChart').getContext('2d');
+        var instagramChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['13-24 ans', '25-34 ans', '35-44 ans', '45-54 ans', '55+ ans'],
+                datasets: [{
+                    data: [32, 26, 16, 13, 10],
+                    backgroundColor: ['red', 'blue', 'green', 'purple', 'orange']
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!-- Page 3: Les chiffres clés de Facebook en France en 2023 -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les chiffres clés de Facebook en France en 2023</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les chiffres clés de Facebook en France en 2023</h1>
+    <canvas id="facebookChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('facebookChart').getContext('2d');
+        var facebookChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['13-24 ans', '25-34 ans', '35-44 ans', '45-54 ans', '55+ ans'],
+                datasets: [{
+                    data: [35, 29, 17, 11, 9],
+                    backgroundColor: ['red', 'blue', 'green', 'purple', 'orange']
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!-- Page 4: Quels sont les chiffres clés de Snapchat en France en 2023 ? -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quels sont les chiffres clés de Snapchat en France en 2023 ?</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quels sont les chiffres clés de Snapchat en France en 2023 ?</h1>
+    <canvas id="snapchatChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('snapchatChart').getContext('2d');
+        var snapchatChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['18-24 ans', '25-34 ans', '35+ ans'],
+                datasets: [{
+                    data: [44, 25, 29],
+                    backgroundColor: ['red', 'blue', 'green']
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!-- Page 5: Quels sont les chiffres clés de TikTok en France en 2023 ? -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quels sont les chiffres clés de TikTok en France en 2023 ?</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quels sont les chiffres clés de TikTok en France en 2023 ?</h1>
+    <canvas id="tiktokChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('tiktokChart').getContext('2d');
+        var tiktokChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['13-24 ans', '25-34 ans', '35-44 ans', '45-54 ans', '55+ ans'],
+                datasets: [{
+                    data: [47, 26, 14, 8, 5],
+                    backgroundColor: ['red', 'blue', 'green', 'purple', 'orange']
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
